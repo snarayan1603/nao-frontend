@@ -6,7 +6,7 @@ export async function improveAndTranslateTranscript(
 ) {
   const prompt = transcript;
 
-  const response = await fetch("https://13.60.44.250:443/api/translate", {
+  const response = await fetch("https://16.171.173.141:443/api/translate", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({
